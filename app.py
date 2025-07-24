@@ -424,7 +424,7 @@ def main():
     # Sidebar for API key
     with st.sidebar:
         st.header("⚙️ Configuration")
-        api_key = st.text_input("NVIDIA API Key", type="password", value="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")
+        api_key = st.text_input("NVIDIA API Key", type="password", value="your-api-key-here")
         st.info("💡 Enter your NVIDIA API key for sentiment analysis")
         
         st.header("📋 Process Steps")
